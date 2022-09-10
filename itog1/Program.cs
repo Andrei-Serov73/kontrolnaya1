@@ -36,3 +36,14 @@ void StrFill(string[] str1, string[] str2)
     }
 }
 
+void PrintStr(string[] str)
+{
+    for (int i = 0; i < str.Length; i++)
+    {
+        Console.Write($"{str[i]} ");
+    }
+    //Console.WriteLine();
+}
+StrFill(str1, str2);
+PrintStr(str2);
+
