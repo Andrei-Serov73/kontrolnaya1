@@ -12,3 +12,14 @@ Console.Clear();
 string[] str1 = new string[5] {"4пе", "05", "ронgrt", "%ждш*", "_______"};
 string[] str2 = new string[str1.Length];
 
+void PrintStr1(string[] str1)
+{
+    for (int i = 0; i < str1.Length; i++)
+    {
+        Console.Write($"{str1[i]}, ");
+    }
+}
+Console.Write($" [ ");
+PrintStr1(str1);
+Console.Write($" ] -> ");
+
