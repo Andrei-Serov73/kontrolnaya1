@@ -23,3 +23,16 @@ Console.Write($" [ ");
 PrintStr1(str1);
 Console.Write($" ] -> ");
 
+void StrFill(string[] str1, string[] str2)
+{
+    int count = 0;
+    for (int i = 0; i < str1.Length; i++)
+    {
+    if(str1[i].Length <= 3)
+        {
+        str2[count] = str1[i];
+        count++;
+        }
+    }
+}
+
