@@ -9,7 +9,7 @@
 //[“Russia”, “Denmark”, “Kazan”] → []
 
 Console.Clear();
-string[] str1 = new string[5] {"4пе", "05", "ронgrt", "%ждш*", "_______"};
+string[] str1 = new string[5] {"4пkе", "0 5", "роt", "%ждш*", "_--___"};
 string[] str2 = new string[str1.Length];
 
 void PrintStr1(string[] str1)
@@ -42,7 +42,6 @@ void PrintStr(string[] str)
     {
         Console.Write($"{str[i]} ");
     }
-    //Console.WriteLine();
 }
 StrFill(str1, str2);
 PrintStr(str2);
