@@ -23,7 +23,7 @@ Console.Write($" [ ");
 PrintStr1(str1);
 Console.Write($" ] -> ");
 
-void StrFill(string[] str1, string[] str2)
+void Str2Fill(string[] str1, string[] str2)
 {
     int count = 0;
     for (int i = 0; i < str1.Length; i++)
@@ -36,13 +36,13 @@ void StrFill(string[] str1, string[] str2)
     }
 }
 
-void PrintStr(string[] str)
+void PrintStr2(string[] str2)
 {
-    for (int i = 0; i < str.Length; i++)
+    for (int i = 0; i < str2.Length; i++)
     {
-        Console.Write($"{str[i]} ");
+        Console.Write($"{str2[i]} ");
     }
 }
-StrFill(str1, str2);
-PrintStr(str2);
+Str2Fill(str1, str2);
+PrintStr2(str2);
 
